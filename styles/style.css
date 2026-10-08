@@ -12,3 +12,42 @@
   --light-magenta: hsl(300, 24%, 96%);
   --white: hsl(0, 0%, 100%);
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#reviews-home {
+
+  width: 65%;
+  padding: 20px;
+}
+
+.reviews-text {
+  display: flex;
+  gap: 80px;
+}
+
+.reviews-text header {
+  width: 50%;
+  padding: 10px;
+}
+
+.reviews-text header h2 {
+  font-size: 45px;
+  color: var(--dark-magenta);
+  margin-bottom: 20px;
+}
+
+.reviews-text header p {
+  font-size: 15px;
+  color: var(--madium-magenta);
+}
+
+.reviews-stars {
+  background-color: cadetblue;
+  width: 50%;
+}
