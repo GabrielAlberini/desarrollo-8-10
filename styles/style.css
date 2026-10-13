@@ -141,9 +141,16 @@ body {
 /* Medida para celulares */
 /* ~480px */
 
+
+/* @media (max-width: 900px) {
+  .reviews-cards {
+    flex-wrap: wrap;
+  }
+} */
+
 /* media query → consulta multimedia */
 /* condicional → dada una condición se ejecuta cierto proceso */
-@media (max-width: 480px) {
+@media (max-width: 880px) {
   #reviews-home {
     width: 100%;
   }
@@ -155,5 +162,28 @@ body {
 
   .reviews-text header {
     width: 100%;
+    margin-top: 40px;
+  }
+
+  .reviews-stars {
+    width: 100%;
+  }
+
+  .reviews-valoration {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .reviews-cards {
+    flex-direction: column;
+  }
+
+  /* Selector especifico → por n de hijo*/
+  .reviews-cards article:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .reviews-cards article:nth-child(3) {
+    margin-top: 0;
   }
 }
