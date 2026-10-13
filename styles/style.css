@@ -128,3 +128,32 @@ body {
 .reviews-cards article:nth-child(3) {
   margin-top: 34px;
 }
+
+/* Medidas estandars para dispositivos */
+/* BRAKEPOINT - Puntos de quiebre */
+
+/* Medida para pc */
+/* ~1400px */
+
+/* Medida para tablet */
+/* ~980px */
+
+/* Medida para celulares */
+/* ~480px */
+
+/* media query → consulta multimedia */
+/* condicional → dada una condición se ejecuta cierto proceso */
+@media (max-width: 480px) {
+  #reviews-home {
+    width: 100%;
+  }
+
+  .reviews-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reviews-text header {
+    width: 100%;
+  }
+}
